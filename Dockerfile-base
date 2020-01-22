@@ -1,0 +1,3 @@
+FROM registry.cn-hangzhou.aliyuncs.com/dragonwell/dragonwell8:8.2.2-GA_alpine_x86_64_8u232-b82
+COPY --from=hengyunabc/arthas:latest /opt/arthas /opt/arthas
+COPY sjk-plus-0.15.jar /opt/arthas/
